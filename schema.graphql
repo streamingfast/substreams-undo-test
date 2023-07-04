@@ -1,0 +1,5 @@
+type HashedBlock @entity {
+    id: ID!
+    block_number: BigInt!
+    block_hash: Bytes!
+}
